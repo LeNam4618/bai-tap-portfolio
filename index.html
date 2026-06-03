@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân - Lê Phương Nam</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Animated Background Shapes -->
+    <div class="parallax-bg">
+        <div class="bg-shape shape-1" data-depth="0.1"></div>
+        <div class="bg-shape shape-2" data-depth="-0.15"></div>
+        <div class="bg-shape shape-3" data-depth="0.2"></div>
+    </div>
+
+    <!-- Thanh điều hướng cố định -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo">Digital Portfolio.</div>
+                <div class="logo-subtitle">Dự án cuối kỳ môn Nhập môn Công nghệ số & Ứng dụng Trí tuệ nhân tạo</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Giới thiệu</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#summary">Tổng kết</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: GIỚI THIỆU -->
+    <section id="hero" class="section hero-section parallax-container">
+        <div class="container hero-content reveal">
+            <div class="hero-text">
+                <p class="greeting">Xin chào, mình là</p>
+                <h1 class="name-title">Lê Phương Nam</h1>
+                <h2 class="major-title">Sinh viên ngành Hệ thống thông tin</h2>
+                
+                <div class="info-block mt-2" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.1">
+                    <h3 class="space-font">🪐 Về bản thân</h3>
+                    <p><strong>Sở thích:</strong> công nghệ, đồ điện tử, cơ sở dữ liệu, hệ thống</p>
+                    <p><strong>Định hướng:</strong> Về định hướng phát triển cá nhân, lộ trình nghề nghiệp mà mình đang theo đuổi là trở thành một Data Engineer (Kỹ sư Dữ liệu). Mục tiêu ngắn hạn của mình là trang bị đầy đủ kiến thức và kỹ năng để tìm kiếm một cơ hội thực tập chất lượng vào năm thứ ba đại học.</p>
+                </div>
+
+                <div class="info-block objective-block mt-2" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.1">
+                    <h3 class="space-font">🚀 Mục tiêu Portfolio</h3>
+                    <ul>
+                        <li>Tổng hợp và thể hiện kiến thức, kỹ năng đã học được từ môn "Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo".</li>
+                        <li>Trở thành một công cụ hữu ích để giới thiệu năng lực của bản thân trong tương lai, chứ không chỉ đơn thuần là một bài tập.</li>
+                        <li>Hoàn thành dự án bằng cách tích hợp các bài tập nhỏ từ các chương vào một sản phẩm thống nhất.</li>
+                        <li>Làm nổi bật sản phẩm cuối cùng và quy trình thực hiện thông qua việc trình bày lại kết quả các bài tập từ Bài 1 đến Bài 6.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-wrapper parallax-element" data-depth="-0.3">
+                    <div class="reveal-mask img-reveal">
+                        <img src="portrait.jpg" alt="Profile Picture" class="profile-pic" id="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="organic-divider">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,119.34,200.7,109.9Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- SECTION 2: DỰ ÁN -->
+    <section id="projects" class="section projects-section">
+        <div class="container reveal">
+            <h2 class="section-title space-font">Nhiệm Vụ Thực Hành</h2>
+            <p class="section-subtitle">Chi tiết quá trình thực hiện các bài tập môn học.</p>
+            
+            <div class="projects-list">
+                <!-- Task 1 -->
+                <div class="project-detail-card reveal">
+                    <h3 class="task-title space-font">1. Thao tác cơ bản với tệp tin và thư mục</h3>
+                    <div class="task-layout">
+                        <div class="task-image magnetic reveal-mask img-reveal" data-strength="15" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                            <img src="mc/mc1.png" alt="Minh chứng bài 1">
+                        </div>
+                        <div class="task-info">
+                            <h4>Mục tiêu:</h4>
+                            <p>Hiểu và thực hành quản lý tệp tin hiệu quả. Trình bày cấu trúc thư mục tối ưu và tuân thủ các quy tắc đặt tên tệp rõ ràng, khoa học.</p>
+                            <h4>Tóm tắt quá trình thực hiện:</h4>
+                            <p>Tiến hành thiết lập một cấu trúc cây thư mục logic phục vụ cho việc học tập nhiều môn học khác nhau. Áp dụng các quy tắc đặt tên tệp thống nhất (ví dụ: TenMon_BaiTap_HoTen) và chụp ảnh minh họa lại quá trình này.</p>
+                            <a href="baocao/1. BT1.pdf" target="_blank" class="btn-primary mt-2 magnetic-btn">Xem Minh Chứng (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 2 (Reverse layout) -->
+                <div class="project-detail-card reveal">
+                    <h3 class="task-title space-font">2. Tìm kiếm và đánh giá thông tin học thuật</h3>
+                    <div class="task-layout reverse">
+                        <div class="task-image magnetic reveal-mask img-reveal" data-strength="15" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                            <img src="mc/mc2.png" alt="Minh chứng bài 2">
+                        </div>
+                        <div class="task-info">
+                            <h4>Mục tiêu:</h4>
+                            <p>Thành thạo sử dụng các toán tử tìm kiếm nâng cao để tra cứu tài liệu học thuật và biết cách đánh giá độ tin cậy của các nguồn thông tin.</p>
+                            <h4>Tóm tắt quá trình thực hiện:</h4>
+                            <p>Sử dụng các nền tảng như Google Scholar, kết hợp các toán tử (AND, OR, ngoặc kép "", site:) để lọc kết quả. Sau đó, lập bảng phân tích, đánh giá các nguồn thông tin thu thập được dựa trên tính chính xác, tính khách quan và độ uy tín.</p>
+                            <a href="baocao/2. BT2.pdf" target="_blank" class="btn-primary mt-2 magnetic-btn">Xem Minh Chứng (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 3 -->
+                <div class="project-detail-card reveal">
+                    <h3 class="task-title space-font">3. Viết Prompt hiệu quả cho các tác vụ học tập</h3>
+                    <div class="task-layout">
+                        <div class="task-image magnetic reveal-mask img-reveal" data-strength="15" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                            <img src="mc/mc3.png" alt="Minh chứng bài 3">
+                        </div>
+                        <div class="task-info">
+                            <h4>Mục tiêu:</h4>
+                            <p>Tương tác hiệu quả với các công cụ Trí tuệ nhân tạo (Generative AI) bằng cách viết lời nhắc (Prompt) tối ưu, rõ ràng và có đầy đủ ngữ cảnh.</p>
+                            <h4>Tóm tắt quá trình thực hiện:</h4>
+                            <p>Thực hiện so sánh kết quả sinh ra giữa một prompt cơ bản (ngắn gọn, thiếu ngữ cảnh) và một prompt đã được cải tiến (áp dụng các nguyên tắc đóng vai, nêu rõ yêu cầu, định dạng đầu ra). Phân tích sự vượt trội về chất lượng câu trả lời từ AI.</p>
+                            <a href="baocao/3. BT3.pdf" target="_blank" class="btn-primary mt-2 magnetic-btn">Xem Minh Chứng (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 4 -->
+                <div class="project-detail-card reveal">
+                    <h3 class="task-title space-font">4. Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
+                    <div class="task-layout reverse">
+                        <div class="task-image magnetic reveal-mask img-reveal" data-strength="15" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                            <img src="mc/mc4.png" alt="Minh chứng bài 4">
+                        </div>
+                        <div class="task-info">
+                            <h4>Mục tiêu:</h4>
+                            <p>Áp dụng thành thạo các công cụ làm việc nhóm trực tuyến để quản lý tiến độ, chia sẻ tài nguyên và duy trì giao tiếp hiệu quả trong dự án.</p>
+                            <h4>Tóm tắt quá trình thực hiện:</h4>
+                            <p>Khởi tạo không gian làm việc trên công cụ quản lý dự án, tiến hành phân công nhiệm vụ rõ ràng cho từng thành viên. Sử dụng Google Docs/Drive để chỉnh sửa tài liệu đồng thời, phối hợp trực tuyến và lưu lại các minh chứng làm việc nhóm.</p>
+                            <a href="baocao/4. BT4.pdf" target="_blank" class="btn-primary mt-2 magnetic-btn">Xem Minh Chứng (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 5 -->
+                <div class="project-detail-card reveal">
+                    <h3 class="task-title space-font">5. Sử dụng AI tạo sinh hỗ trợ sáng tạo nội dung</h3>
+                    <div class="task-layout">
+                        <div class="task-image magnetic reveal-mask img-reveal" data-strength="15" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                            <img src="mc/mc5.png" alt="Minh chứng bài 5">
+                        </div>
+                        <div class="task-info">
+                            <h4>Mục tiêu:</h4>
+                            <p>Khai thác tiềm năng của AI tạo sinh (sinh văn bản, hình ảnh) để tối ưu hóa và hỗ trợ quá trình sáng tạo nội dung số phong phú.</p>
+                            <h4>Tóm tắt quá trình thực hiện:</h4>
+                            <p>Sử dụng AI để gợi ý ý tưởng, phác thảo cấu trúc bài viết và hỗ trợ tạo ra các thành phần nội dung số (ví dụ: hình ảnh minh họa). Sau đó, tiến hành chỉnh sửa, biên tập lại để tạo ra sản phẩm hoàn thiện mang dấu ấn cá nhân.</p>
+                            <a href="baocao/5. BT5.pdf" target="_blank" class="btn-primary mt-2 magnetic-btn">Xem Minh Chứng (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 6 -->
+                <div class="project-detail-card reveal">
+                    <h3 class="task-title space-font">6. Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+                    <div class="task-layout reverse">
+                        <div class="task-image magnetic reveal-mask img-reveal" data-strength="15" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                            <img src="mc/mc6.png" alt="Minh chứng bài 6">
+                        </div>
+                        <div class="task-info">
+                            <h4>Mục tiêu:</h4>
+                            <p>Nhận thức sâu sắc về các vấn đề đạo đức, liêm chính học thuật khi ứng dụng AI và xây dựng được bộ nguyên tắc cá nhân trong việc sử dụng.</p>
+                            <h4>Tóm tắt quá trình thực hiện:</h4>
+                            <p>Nghiên cứu các rủi ro tiềm ẩn như đạo văn, thiên kiến thuật toán, thông tin sai lệch. Từ đó, xây dựng một bản tuyên ngôn/bộ nguyên tắc cá nhân cam kết về việc sử dụng AI một cách minh bạch, có trách nhiệm và tôn trọng bản quyền.</p>
+                            <a href="baocao/6. BT6.pdf" target="_blank" class="btn-primary mt-2 magnetic-btn">Xem Minh Chứng (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="organic-divider divider-bottom">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,119.34,200.7,109.9Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- SECTION 3: TỔNG KẾT -->
+    <section id="summary" class="section summary-section">
+        
+        <div class="container reveal mt-2">
+            <div class="summary-header text-center">
+                <div class="accent-badge">KẾT QUẢ ĐẠT ĐƯỢC</div>
+                <h2 class="section-title space-font">Tổng Kết Hành Trình</h2>
+                <p class="section-subtitle">Đúc kết lại những giá trị cốt lõi và kinh nghiệm quý giá sau chuỗi nhiệm vụ.</p>
+            </div>
+            
+            <div class="summary-layout">
+                <div class="summary-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <h3 class="space-font">Trải nghiệm & Cảm nhận cá nhân</h3>
+                    <p class="summary-text">
+                        Quá trình xây dựng Portfolio và thực hiện các bài tập thực sự là một hành trình thú vị. Nó không chỉ giúp mình hệ thống hóa lại toàn bộ kiến thức đã học mà còn tạo ra một sản phẩm thực tế để tự nhìn nhận lại sự phát triển kỹ năng số của chính mình.
+                    </p>
+                </div>
+
+                <div class="summary-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <h3 class="space-font">Kiến thức & Kỹ năng quan trọng nhất</h3>
+                    <p class="summary-text">
+                        Mình đánh giá cao nhất kỹ năng <strong>Viết Prompt (Prompt Engineering)</strong> và kỹ năng <strong>Đánh giá thông tin học thuật</strong>. Đây là hai công cụ cốt lõi giúp mình khai thác tri thức trong thời đại số một cách nhanh chóng nhưng vẫn đảm bảo sự chính xác và tin cậy.
+                    </p>
+                </div>
+
+                <div class="summary-card highlight-card full-width" data-tilt data-tilt-max="2" data-tilt-speed="400">
+                    <h3 class="space-font">Điểm tâm đắc & Thách thức</h3>
+                    <div class="split-content">
+                        <div class="pros">
+                            <h4 class="space-font">Tâm đắc</h4>
+                            <p>Khám phá ra rằng AI là một trợ thủ vô cùng đắc lực, giúp tiết kiệm thời gian đáng kể nếu ta biết cách kiểm soát và sử dụng nó một cách có trách nhiệm.</p>
+                        </div>
+                        <div class="cons">
+                            <h4 class="space-font">Thách thức</h4>
+                            <p>Thử thách lớn nhất là việc biên tập lại nội dung của 6 bài tập sao cho súc tích, dễ hiểu và trình bày trên Portfolio một cách chuyên nghiệp, đẹp mắt nhất. Tuy nhiên, thách thức này đã giúp mình cải thiện đáng kể tư duy thiết kế và tổng hợp thông tin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p class="space-font">Dự án Portfolio Cá Nhân. Thực hiện năm 2026.</p>
+        </footer>
+    </section>
+
+    <!-- Thư viện VanillaTilt cho hiệu ứng nghiêng 3D -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
